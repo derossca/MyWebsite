@@ -1,0 +1,146 @@
+Body {background-color: #2d2d2d;
+      color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;}
+header {background-color: #324158;}
+header h1 {display: inline-block;
+           color: #fca311;
+           font-weight: bold;
+           font-style: normal;
+           margin-left: auto;
+           margin-right: auto;}
+header a {text-decoration: none;}
+header a:link {color: #fca311}
+header a:visited {color: #fca311;}
+header a:hover {color: #FFFFFF;}
+nav {background-color: #324158;
+     color: #BEC7D5;
+     text-align: center;
+     font-weight: bold;
+     font-size: 1em;
+     padding: 5px 0 5px 0;
+     margin-left: auto;
+     margin-right: auto;
+     float: right;}
+nav a {text-decoration: none;}
+nav a:link {color: #fca311}
+nav a:visited {color: #BEC7D5;}
+nav a:hover {color: #FFFFFF;}
+nav ul {display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: 1.25em;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;}
+nav li {padding: 1em;}
+h1 {color: #fca311;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;}
+div h1 {text-align: center;}
+h2 {color: #fca311;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;}
+h3 {color: #FFFFFF;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;}
+div main p {color:#BEC7D5;
+            text-align: center;}
+body div main dl {text-align: center;}
+dt {color: #fca311;}
+dd {color: #FFFFFF;}
+li {list-style: none;}
+
+footer {background-color: #324158;
+        font-size: .75em;
+        font-style: italic;
+        text-align: center;}
+footer a {text-decoration: none;}
+footer a:link {color: #fca311}
+footer a:visited {color: #fca311;}
+footer a:hover {color: #FFFFFF;}
+#wrapper {background-color: #2d2d2d;
+          padding: 0;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          min-width: 900px;
+          max-width: 1280px;}
+#thunder {background-color: #2d2d2d;
+          background-image: url(pexels-kevin-malik-9017721.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding: 0;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          min-width: 640px;
+          max-width: 962px;
+          min-height: 800px;}
+#thunder main {padding-top: 5em;}
+#copyrightContainer {padding-top: 700px;}
+#aboutme {color: #FFFFFF;
+          padding-bottom: 15px;}
+.aboutcontainer {display: flex;
+                 flex-direction: row;
+                 height: 50%;
+                 border-style: solid;
+                 border-color: #324158;}
+.aboutcontainer2 {display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding-left: 5em;
+                  padding-right: 5em;}
+/*Re-did in html - not needed but keeping just incase I want to switch back
+#cincinnati {background-image: url(pexels-dave-morgan-2570704.jpg);
+             width: 500px;
+             height: 500px;
+             background-size: 100% 100%;
+             background-repeat: no-repeat;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;}
+#cincinnatireds {background-image: url(pexels-leah-kelley-9675741.jpg);
+                width: 500px;
+                height: 500px;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;} */
+#resumepic {background-image: url(IMG_1193.jpg);
+            height: 400px;
+            width: 300px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
+#mountain {font-weight: bold;
+           background-image: url(mountain-4910186_640.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           opacity: 90%;
+           margin: auto;
+           display: block;}
+#resumecolor {color: #fca311}
+/* .resumecontainer {display: flex;
+                  justify-content: space-around;}
+.resumecontainer div {border: 1px #FFFFFF solid;
+                      width: 50%;} */
+.underconstruction {background-image: url(under-construction-2891888_640.jpg);
+                    width: 640px;
+                    height: 480px;                    
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin: auto;}
+.undercaution {background-image: url(sign-205_256.gif);
+        width: 256px;
+        height: 254px;                    
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;}
+#cash {text-align: center;}
